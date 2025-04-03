@@ -15,9 +15,13 @@ Delete tasks when no longer needed
 =====================================================================================================================================================================
 
 
-| Home  Screen      | adding taks Screen       | Feature Screen     |
+| Home  Screen      |          adding taks Screen       |
 |--------------------|-------------------|--------------------|
-| ![Splash](image1.png) |![Splash](image2.png) | ![Splash](image3.png)|
+| ![Splash](image1.png)        |![Splash](image2.png) |
+|--------------------|-------------------|--------------------|
+ Feature Screen     |            Feature Screen     |
+ | ![Splash](image3.png)       | ![Splash](image4.png)
+ 
 
 
 
