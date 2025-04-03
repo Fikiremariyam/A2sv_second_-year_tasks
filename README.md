@@ -1,4 +1,4 @@
-#Task Tracker App
+ **#Task Tracker App**
 
 A simple task tracker web application built using HTML, CSS, and JavaScript. This app allows users to add, manage, and delete tasks efficiently.
 
@@ -15,11 +15,11 @@ Delete tasks when no longer needed
 =====================================================================================================================================================================
 
 
-| Home  Screen      |          adding taks Screen       |
+
 |--------------------|-------------------|--------------------|
 | ![Splash](image1.png)        |![Splash](image2.png) |
 |--------------------|-------------------|--------------------|
- Feature Screen     |            Feature Screen     |
+
  | ![Splash](image3.png)       | ![Splash](image4.png)
  
 
