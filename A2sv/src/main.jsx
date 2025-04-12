@@ -17,7 +17,7 @@ import Contact from './routes/contact.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root/>,
+    element: <Roo t/>,
     errorElement: <ErrorPage/>,
     children :[
       {
@@ -27,6 +27,7 @@ const router = createBrowserRouter([
     ]
  
   },
+
  
 ]);
 
