@@ -1,4 +1,4 @@
-import TodoTypes from './todo'
+import TodoTypes from './objects/todo'
 const LOCAL_STORAGE_KEY = 'todos'
 
 const Todoservice =

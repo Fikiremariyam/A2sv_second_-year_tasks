@@ -1,11 +1,11 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import { FaCheck,FaEdit } from 'react-icons/fa';
-import TodoTypes from '../todo';
-import Todoservice from '../ToDoService' 
+import TodoTypes from '../../objects/todo.ts';
+import Todoservice from '../../functions/ToDoService.ts'
 import { GiCancel } from 'react-icons/gi';
 import { RiDeleteBin5Fill } from 'react-icons/ri';
-import  TodoForm  from './todoform.tsx'
-import '../css/todolist.css'
+
+import  TodoForm  from '../Todo/todoform.tsx'
 
 const TodoList = () => {
     

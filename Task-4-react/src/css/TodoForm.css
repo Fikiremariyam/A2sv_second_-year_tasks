@@ -1,49 +1,70 @@
+/* Dark Theme Form Styling */
 
+.request-form-wrapper {
+  height: 100vh;
+  min-width: 100%;
+  background-color: #1a202c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
 
-.inputForm{
-    height: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-  }
-  
-  
-  .inputForm > input , button {
-    outline:none;
-    border:none;
-    font-size: 1.4rem;
-    color:#000;
-  }
-  
-  
-  .inputForm > input{
-    height: 5vh;
-    width: 80%;
-    max-width: 900px; /* Set the maximum width */
-    margin: 0 auto; /* Center the container */
-    box-shadow: 1px 1px 6px -2px #000;
-    background: #F3F8FF;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    border-radius:50px ;
-  }
-  .inputForm > input::placeholder{
-  font-size: 18px;
-  color:rgba(229, 229, 229, 0.907)
-  }
-  
-  
-  .inputForm > button {
-    font-family: 'Roboto', sans-serif;
-    padding:5px 10px;
-    background: #FFB534;
-    cursor: pointer;
-    font-weight: 500;
-    border-radius: 5px;
-    margin-top: 10px;
-   
-  }
-  
-  
+.request-form {
+  background-color: #2d3748;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-title {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-label {
+  display: block;
+  color: #cbd5e0;
+  margin-bottom: 0.25rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #4a5568;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.form-input:focus {
+  box-shadow: 0 0 0 2px #9f7aea;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #9f7aea;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #805ad5;
+}

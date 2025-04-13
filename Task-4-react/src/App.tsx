@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import {FaPen, FaClipboard, FaClipboardList} from 'react-icons/fa'
-import TodoList from './components/TodoList'
+import {FaPen,  FaClipboardList} from 'react-icons/fa'
+import TodoList from './components/Todo/TodoList'
 import './css/App.css'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     
