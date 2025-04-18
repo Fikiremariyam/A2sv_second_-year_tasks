@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 
@@ -23,12 +24,13 @@ type Job = {
   company: string;
   image: string;  
   };
+  
    
 const JobCard = ( { job} :{ job:Job } ) => {
   return (
     <div>
      
-      <div className=" bg-white shadow h-auto p-6 rounded-4xl border border-gray-200 hover:shadow-md transition mt-0 gap-2 px-8 py-10 flex flex-col items-center justify-center mx-auto">
+      <div className=" bg-white shadow h-auto p-6 rounded-4xl border border-gray-200 hover:shadow-md transition mt-0 gap-2 px-8 py-10 flex flex-col items-center justify-center mx-auto" >
         <div className="flex">
           <div className="w-15 h-15 -mt-3 rounded-full bg-gray-300 flex items-center justify-center">
             <span className="text-gray-700 font-bold text-sm">A</span>
@@ -41,30 +43,7 @@ const JobCard = ( { job} :{ job:Job } ) => {
           {job.description}
 
         </div>
-        
-        <div className="mt-5 flex items-center  gap-3 ">
-          <div className=' rounded-2xl border-2 border-green-600 text-green-600 w-20 h-8 w-auto px-4 py-1'>
-            {job.about.location}
-          </div>
-          <h1 className='text-4xl text-gray-200 shadow'> |</h1>
-
-          {job.about.categories && job.about.categories.map((category, index) => (
-            <button 
-              key={index} 
-              className={`rounded-2xl border-2 px-4 py-1 w-auto ${
-              index % 2 === 0 
-                ? 'border-yellow-300 text-yellow-300' 
-                : 'border-green-600 text-green-600'
-              }`}
-            >
-              {category}
-            </button>
-          ))}
-          
-          
-
         </div>
-          </div>
         </div>
 
        
