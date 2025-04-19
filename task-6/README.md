@@ -1,54 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Task 6 - Job Listing
 
-## Getting Started
+A simple and modern job listing application built with **React**, **TypeScript**, and **Tailwind CSS**. It allows users to browse job opportunities, view detailed information, and filter listings using tags.
 
-First, run the development server:
+---
 
-```bash
+## 🚀 Features
+
+- **Job Listings Dashboard** – Browse all available job opportunities with a clean, card-based UI.
+- **Detailed Job View** – View comprehensive job details including responsibilities, requirements, and company info.
+- **Responsive Design** – Fully responsive layout that works seamlessly across desktops and mobile devices.
+- **Tag-based Filtering** – Easily filter jobs using intuitive, tag-based categorization.
+- **Modern UI** – Clean, professional design with attention to user experience and detail.
+
+---
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td><img src="./public/jobCard.png" alt="Job Card" width="300"/></td>
+    <td><img src="./public/jobList.png" alt="Job List" width="300"/></td>
+  </tr>
+</table>
+
+---
+
+## 🛠 Technologies Used
+
+- **React** – For building dynamic user interfaces  
+- **TypeScript** – Static typing to enhance code quality and maintainability  
+- **Tailwind CSS** – Utility-first CSS framework for fast styling  
+- **React Router** – Client-side routing between pages  
+- **React Icons** – Consistent and scalable icons  
+- **Vite** – Lightning-fast development and optimized builds  
+
+---
+
+## 📁 Project Structure
+
+src/ ├── components/ # Reusable UI components │ ├── JobCard.tsx # Card component for displaying job info │ └── JobList.tsx # Component for listing all jobs │ ├── pages/ # Page-level components │ ├── JobPage.tsx # Detailed view for a specific job │ └── OpportunitiesDashboard.tsx # Dashboard listing all jobs │ ├── data/ │ └── jobs.json # Sample/mock job listing data │ └── hooks/ └── useGetJobs.ts # Custom hook for fetching job data
+
+---
+
+## ✅ Prerequisites
+
+- Node.js (v14 or higher)  
+- npm or pnpm
+
+---
+
+## 🔧 Installation
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/job-listing-app.git
+cd job-listing-app 
+
+2 Install dependencies:
+npm install
+🚀 Run the Development Server
+Start the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-
-#Screenshots 
-=====================================================================================================================================================================
-
-
-
-|--------------------|-------------------|--------------------|
-| ![Splash](./public/jobCard.png)        
-|--------------------|-------------------|--------------------|
-
- | ![Splash](./public/jobList.png)        
- 
-
-
-
-
-=====================================================================================================================================================================
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
