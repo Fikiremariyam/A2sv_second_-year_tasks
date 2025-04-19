@@ -21,10 +21,10 @@ bun dev
 
 
 |--------------------|-------------------|--------------------|
-| ![Splash](/public/jobCard.png)        
+| ![Splash](./public/jobCard.png)        
 |--------------------|-------------------|--------------------|
 
- | ![Splash](/public/jobList.png)        
+ | ![Splash](./public/jobList.png)        
  
 
 
