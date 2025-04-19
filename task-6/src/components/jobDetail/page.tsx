@@ -28,7 +28,7 @@ const JobDetail = ( { job} :{ job:Job } ) => {
 
   return (
     <div>
-    <div className="bg-white shadow-lg h-auto p-6 rounded-4xl border border-gray-200 hover:shadow-2xl hover:scale-105 transition-transform transition-shadow duration-300 mt-0 gap-2 px-8 py-10 flex flex-col items-center justify-center mx-auto w-[90%]" >
+    <div className="bg-white shadow-lg h-[30vh] p-6 rounded-4xl border border-gray-200 hover:shadow-2xl hover:scale-105 transition-transform transition-shadow duration-300 mt-0 gap-2 px-8 py-10 flex flex-col items-center justify-center mx-auto w-[90%]" >
       <div className="flex">
         
         <div className="w-15 h-15 -mt-3 rounded-full bg-gray-300 flex items-center justify-center">

@@ -2,18 +2,23 @@ import { use } from "react";
 import JobDetail from "@/components/jobDetail/page";
 import Link from 'next/link'
 
-const fetchJobs = async ()  => {
+const fetchJobs = async (): Promise<any[]>  => {
   const res = await fetch('http://localhost:3000/api/jobs', {
       cache: 'no-store' // or 'force-cache' if you want caching
     });
+
     if (!res.ok) throw new Error('Failed to fetch jobs');
-    return res.json();
+    
+    const data = await res.json();
+    return data as any[];
   };
 
 const jOBS = async () => {
 
   
   const jobs  =  await fetchJobs();
+  console.log(jobs.length)
+  
   
   return (
     
@@ -40,15 +45,22 @@ const jOBS = async () => {
             </div>
         </div>
         <div className="   flex flex-col gap-6  overflow-auto scroll-hide mt-2">
-            {jobs.map((job: any, i: number) => (
-            <Link
-              key={job.id}
-              href={`/components/jobcard/${job.id}`}
-              className=""
-            >
+            {
+            jobs.map((job: any, i: number) => (
+              
+              <Link
+            key={i}
+            href={{
+              pathname: `/jobcard/${job.id}`,
+              query: { job: JSON.stringify(job) }, // Pass the job object as a query parameter
+            }}
+            className=""
+          >
+              
               <JobDetail key={i} job={job} />
             </Link>
-            ))}
+            )
+            )}
           
         </div>
       </div>
