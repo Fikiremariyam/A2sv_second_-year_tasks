@@ -8,7 +8,9 @@ A simple To do list app developed using simple type script html and css with out
 - **Task adding ** – add tasks wherere the details and the time stamp is attached 
 - **Task editing** – updating the task that has been created previously 
 - **Task Listing** – Read the Task list and change the list  when ever it is updated
-- **Task Deleteing ** –  REmoving task from the list 
+- **Task Deleting ** –  REmoving task from the list 
+- **Task checking ** –  checking task done and which add a line over it 
+
 
 ---
 
