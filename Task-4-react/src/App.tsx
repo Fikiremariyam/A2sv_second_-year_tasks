@@ -16,7 +16,10 @@ function App() {
 
       </div>
     </div>
-      <TodoList/>
+    <div className="lists">
+    <TodoList/>
+    </div>
+      
       
     </div>    
   );

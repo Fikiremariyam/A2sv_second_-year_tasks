@@ -30,7 +30,6 @@
     display: flex;
     justify-content: center;
     padding: 10px;
-    border: 2px solid red;
     border-radius: 10px;
     position: static;
   }
@@ -56,6 +55,12 @@
     100% {
       transform: rotate(360deg);
     }
+  }
+  .lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
   
   

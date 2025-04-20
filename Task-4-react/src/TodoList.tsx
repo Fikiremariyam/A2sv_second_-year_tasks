@@ -3,7 +3,8 @@ import { FaCheck,FaEdit } from 'react-icons/fa';
 import TodoTypes from './objects/todo.ts';
 import Todoservice from './functions/ToDoService.ts'
 import { GiCancel } from 'react-icons/gi';
-import { RiDeleteBin5Fill } from 'react-icons/ri';
+import { RiDeleteBin5Fill } from 'react-icons/ri'
+import './css/TodoList.css'
 
 import  TodoForm  from './components/Todo/todoform.tsx'
 

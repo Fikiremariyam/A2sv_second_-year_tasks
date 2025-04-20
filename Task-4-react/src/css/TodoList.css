@@ -1,103 +1,112 @@
+/* Main container styling */
 .todoContainer {
-    width: 100%;
-    max-width: 900px; /* Set the maximum width */
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Individual to-do item container */
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 10px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.items:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Editing mode container */
+.editedText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Input field for editing */
+.editedText input[type='text'] {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Buttons styling */
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button svg {
+  vertical-align: middle;
+}
+
+/* Cancel button */
+button:nth-child(2) {
+  background-color: #dc3545;
+}
+
+button:nth-child(2):hover {
+  background-color: #a71d2a;
+}
+
+/* Default view text */
+.editBtn span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Edit and delete buttons */
+.editBtn button {
+  margin-left: 10px;
+  background-color: #6c757d;
+}
+
+.editBtn button:hover {
+  background-color: #495057;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .todoContainer {
+    padding: 15px;
   }
-  
-  
-  .todos {
-    font-size: 20px;
-    font-weight: 500;
-    max-height:500px;
-    overflow-y: auto
-  }
-  
-  
+
   .items {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 1px 1px 4px -2px blue;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    font-family: "Poppins", sans-serif;
-    transition: all .3s ease-in-out;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  
-  .items:hover{
-    box-shadow: 1px 1px 6px -1px rgb(128, 255, 0);
-    cursor: pointer;
-  }
-  
-  
-  .editText {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .editText > button {
-    margin: 0 5px;
-    display: flex;
-  }
-  .editText > button:nth-child(2) {
-    color: #a1eebd;
-  }
-  .editText > button:nth-child(3) {
-    color: #ef4040;
-  }
-  
-  
-  .editText > input {
-    border: none;
-    border-radius: 50px;
-    background: transparent;
-    padding: 10px;
-    box-shadow: 1px 1px 5px -2px red;
-    margin: 0 10px;
-  }
-  
-  
-  button {
-    cursor: pointer;
-    background: transparent;
-  }
-  
-  
+
   .editBtn {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex: 1;
-    margin: 10px;
+    width: 100%;
   }
-  .editBtn > span {
-    display: flex;
-    align-items: center;
-    margin-right: 10px
+
+  .editBtn button {
+    margin-left: 0;
   }
-  .items > button {
-    color: red;
-  }
-  
-  
-  /* Scrollbar styles */
-  .todos::-webkit-scrollbar {
-    width: 12px; /* Set the width of the scrollbar */
-  }
-  
-  
-  .todos::-webkit-scrollbar-thumb {
-    background-color: #888; /* Set the color of the thumb */
-    border-radius: 6px; /* Set the border radius of the thumb */
-  }
-  
-  
-  .todos::-webkit-scrollbar-track {
-    background-color: #eee; /* Set the color of the track */
-  }
-  
-  
-  
-  
+}
