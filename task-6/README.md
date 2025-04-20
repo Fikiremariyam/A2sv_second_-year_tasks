@@ -38,8 +38,7 @@ A simple and modern job listing application built with **React**, **TypeScript**
 
 ## 📁 Project Structure
 
-src/ ├── components/ # Reusable UI components │ ├── JobCard.tsx # Card component for displaying job info │ └── JobList.tsx # Component for listing all jobs │ ├── pages/ # Page-level components │ ├── JobPage.tsx # Detailed view for a specific job │ └── OpportunitiesDashboard.tsx # Dashboard listing all jobs │ ├── data/ │ └── jobs.json # Sample/mock job listing data │ └── hooks/ └── useGetJobs.ts # Custom hook for fetching job data
-
+<pre> ``` src/ ├── components/ # Reusable UI components │ ├── JobCard.tsx # Card component for displaying job info │ └── JobList.tsx # Component for listing all jobs ├── pages/ # Page-level components │ ├── JobPage.tsx # Detailed view for a specific job │ └── OpportunitiesDashboard.tsx # Dashboard listing all jobs ├── data/ │ └── jobs.json # Sample/mock job listing data └── hooks/ └── useGetJobs.ts # Custom hook for fetching job data ``` </pre>
 ---
 
 ## ✅ Prerequisites
