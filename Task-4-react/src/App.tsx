@@ -1,5 +1,5 @@
 import {FaPen,  FaClipboardList} from 'react-icons/fa'
-import TodoList from './components/Todo/TodoList'
+import TodoList from './TodoList'
 import './css/App.css'
 
 
