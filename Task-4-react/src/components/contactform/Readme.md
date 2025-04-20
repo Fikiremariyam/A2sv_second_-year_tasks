@@ -13,5 +13,6 @@ Robust validation is in place to catch and display form errors in real-time.
 
 🛠️ Dynamic Functionality
 The form adapts to user input and guides them through a smooth application process.
+<img src="./image1.png" alt="Job Card" width="300"/>
 
 If you’d like this in a different format (HTML, Flutter, or React JSX with actual icon components), just let me know!
