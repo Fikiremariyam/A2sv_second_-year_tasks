@@ -1,6 +1,7 @@
-🎯 Task Overview
+🎯 Task 5 Forms  - this component is built on together with task 4 which is a todo list by applying routeing 
 There is a React form component that can be accessed via the main route:
-/urr/form
+
+/url/forms
 
 📄 Form Features
 The form includes the following functionalities:
