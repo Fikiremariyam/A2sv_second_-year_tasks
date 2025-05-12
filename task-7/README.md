@@ -18,7 +18,7 @@ A simple and modern job listing application built with **React**, **TypeScript**
 
 <table>
   <tr>
-    <td><img src="./public/jobCard.png" alt="Job Card" width="300"/></td>
+    <td><img src="./screenshoot.png" alt="Job Card" width="300"/></td>
     
   </tr>
 </table>
