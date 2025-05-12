@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+src/app/components/addnewproduct.tsx
+src/app/components/allproducts.tsx
+src/app/components/counter.tsx
